@@ -11,9 +11,16 @@
       <p class="advice__content">"It is easy to sit up and take notice, what's 
         difficult is getting up and taking action"</p>
       
-      <div class="divider"></div>
+        <picture class="product__image-section">
+        <source 
+        srcset="./assets/images/pattern-divider-desktop.svg"
+        media="(min-width: 600px)">
 
-      <button>Dice</button>
+        <img src="./assets/images/pattern-divider-mobile.svg" alt="Image that devides the quote andd the button to generate another quote">
+      </picture>
+
+      
     </div>
+    <button>Dice</button>
   </main>
 </template>
