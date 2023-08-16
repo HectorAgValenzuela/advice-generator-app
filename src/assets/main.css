@@ -88,6 +88,13 @@ body {
   max-width: 340px;
 }
 
+@media (min-width: 800px) {
+  .advice {
+    padding: 2.5rem;
+    max-width: 485px;
+  }
+}
+
 .advice__title {
   color: var(--color-primary-400);
   font-size: 0.7rem;
@@ -126,6 +133,12 @@ body {
   box-shadow: 0;
   transition: box-shadow 1.2s;
 
+}
+
+@media (min-width: 800px) {
+  .button {
+    left: 44%;
+  }
 }
 
 .button:hover {
