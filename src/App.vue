@@ -11,7 +11,7 @@
       <p class="advice__content">"It is easy to sit up and take notice, what's 
         difficult is getting up and taking action"</p>
       
-        <picture class="product__image-section">
+      <picture class="advice__divider">
         <source 
         srcset="./assets/images/pattern-divider-desktop.svg"
         media="(min-width: 600px)">
