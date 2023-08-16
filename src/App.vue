@@ -1,12 +1,19 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
   <main>
-    Advice #<!-- Advice ID goes here -->
+    <div class="advice">
 
-      "<!-- Advice text goes here -->"
+      <h1 class="advice__title">Advice #117</h1>
+      
+      <p class="advice__content">"It is easy to sit up and take notice, what's 
+        difficult is getting up and taking action"</p>
+      
+      <div class="divider"></div>
+
+      <button>Dice</button>
+    </div>
   </main>
 </template>
