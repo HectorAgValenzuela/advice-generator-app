@@ -77,12 +77,15 @@ body {
 /* advice elements */
 
 .advice {
+  position: relative;
   background-color: var(--color-neutral-600);
 
   text-align: center;
   padding: 2rem 1rem;
   margin: 0 0.2rem;
   border-radius: 15px;
+
+  max-width: 340px;
 }
 
 .advice__title {
@@ -101,5 +104,30 @@ body {
 
 /* divider */
 .advice__divider {
+  display: flex;
+  justify-content: center;
+
   margin: 0 0 2rem 0;
+}
+
+/* button */
+.button {
+  position: absolute;
+  cursor: pointer;
+  top: 90%;
+  left: 41%;
+  
+  padding: 1.2rem;
+  border-radius: 100%;
+  background-color: var(--color-primary-400);
+  border: 0;
+  text-decoration: none;
+
+  box-shadow: 0;
+  transition: box-shadow 1.2s;
+
+}
+
+.button:hover {
+  box-shadow: 0 0 20px var(--color-primary-400);
 }
