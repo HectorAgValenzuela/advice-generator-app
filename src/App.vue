@@ -4,7 +4,7 @@
 
       <h1 class="advice__title">Advice #{{ adviceID }}</h1>
       
-      <p class="advice__content">{{ advice }}</p>
+      <p class="advice__content">"{{ advice }}"</p>
       
       <picture class="advice__divider">
         <source 
